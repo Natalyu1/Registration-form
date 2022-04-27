@@ -59,7 +59,8 @@
 
                      <div class="input-three">
                       <label for="element">Страна</label>
-                      <select id="element">
+
+                      <select id="element" name="country">
                         <option value="Russia">Росссия</option>
                         <option value="Kazakhstan">Казахстан</option>
                         <option value="Poland">Польша</option>
@@ -95,17 +96,17 @@
                     <div class="messages" >
  
                       <div class="input-checkbox">
-                        <input type="checkbox" id="notification" class="checkbox"/>
+                        <input type="checkbox" id="notification" class="checkbox" name="notifications" value="email" />
                        <label for="notification">По Email</label>
                        </div>
  
                        <div class="input-checkbox">
-                         <input type="checkbox" id="notification" class="checkbox"/>
+                         <input type="checkbox" id="notification" class="checkbox" name="notifications" value="sms"/>
                         <label for="notification">По SMS</label>
                         </div>
        
                         <div class="input-checkbox">
-                         <input type="checkbox" id="notification" class="checkbox"/>
+                         <input type="checkbox" id="notification" class="checkbox" name="notifications" value="push" />
                         <label for="notification">Push-уведомления в приложении</label>
                         </div>
  
